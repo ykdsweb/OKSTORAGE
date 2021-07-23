@@ -15,7 +15,7 @@
 		<h2 class="summary__item__title item__line--navy">利用者の声</h2>
 	</div>
 	<br />
-	<div class="summary__item summary__area">
+	<div class="summary__item">
 		<div class="summary__item__img"><img src="img/MX_series_00.jpg" width="100%" height="auto" alt=""></div>
 		<!-- <p class="summary__item__caption">説明</p>
 		<div class="summary__item__variation">
