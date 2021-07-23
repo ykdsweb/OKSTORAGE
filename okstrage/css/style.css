@@ -756,3 +756,203 @@ ul.f_soudan img.img-responsive:hover {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ remodelingPlan.html(水回りのパッケージプラン)のCSS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.flex__evenry {
+	display: flex;
+	justify-content: space-evenly;
+  }
+  @media screen and (max-width: 767px) {
+	  .flex__evenry {
+	  display: block;
+	}
+  }
+  .flex__left {
+	display: flex;
+	justify-content: flex-start;
+  }
+  .item__line--red {
+	border-bottom: solid #AA1B20 8px;
+  }
+  .item__line--blue {
+	border-bottom: solid #01BBEF 8px;
+  }
+  .item__line--gray {
+	border-bottom: solid #4B4B4B 8px;
+  }
+  .item__line--yellow {
+	border-bottom: solid #FFFF00 8px;
+  }
+  .item__line--navy {
+	border-bottom: solid #013B94 8px;
+  }
+  .summary__area {
+	border: solid #333333 0.8px ;
+  }
+  .summary {
+	height: auto;
+	margin: 1rem auto;
+	width: 95%;
+  }
+  .summary__item {
+	height: auto;
+	margin: 0 auto;
+	width: 90%;
+  }
+  .summary__item__img {
+	box-sizing: border-box;
+	height: auto;
+	width: 100%;
+  }
+  .summary__item__square--red {
+	background: #AA1B20;
+	height: 88px;
+	width: 88px;
+  }
+  .summary__item__square--blue {
+	background: #01BBEF;
+	height: 88px;
+	width: 88px;
+  }
+  .summary__item__square--gray {
+	background: #4B4B4B;
+	height: 88px;
+	width: 88px;
+  }
+  .summary__item__square--yellow {
+	background: #FFFF00;
+	height: 88px;
+	width: 88px;
+  }
+  .summary__item__square--navy {
+	background: #013B94;
+	height: 88px;
+	width: 88px;
+  }
+  .background--red {
+	background: linear-gradient(-135deg, #E4A972, #D10000) fixed;
+  }
+  .background--blue {
+	background-image: linear-gradient(170deg, #0D428D, #5abab8);
+  }
+  .background--gray {
+	background-image: linear-gradient(170deg, #3f3f3f, #eeeeee);
+  }
+  .summary__item__title {
+	color: #333333;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 0 0 1rem;
+	padding: 1rem;
+  }
+  @media screen and (max-width: 767px) {
+	  .summary__item__title {
+	  font-size: 20px;
+	  font-weight: bold;
+	}
+  }
+  .summary__item__caption {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 0 0 1rem;
+  }
+  .summary__item__variation {
+	margin: 0 0 0 1rem;
+  }
+  .summary__item__text {
+	font-size: 16px;
+  }
+  .summary__item__button {
+	height: auto;
+	margin: 1rem auto;
+	width: 100%;
+  }
+  .summary__item__button a {
+	align-items: center;
+	border-radius: 32px;
+	color: #fafafa;
+	display: flex;
+	font-size: 18px;
+	font-weight: 700;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 1em 2em;
+	text-decoration: none;
+	transition: 0.3s;
+	width: 50%;
+  }
+  .summary__item__button a::after {
+	border-right: 3px solid #333333;
+	border-top: 3px solid #333333;
+	content: '';
+	height: 5px;
+	transform: rotate(45deg);
+	width: 5px;
+  }
+  .summary__item__button a:hover {
+	opacity: 0.8;
+  }
+  .features {
+	box-shadow: 0 1px 2px 0 rgba(102, 76, 76, 0.5);
+	box-sizing: border-box;
+	height: auto;
+	margin: 2rem auto;
+	width: 86%;
+  }
+  .features__main__title {
+	background-image: url("/img/bathroom_01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	display: block;
+	font-size: 32px;
+	font-weight: bold;
+	height: auto;
+	letter-spacing: 0.8px;
+	margin: 0 auto;
+	padding: 1rem;
+	width: 100%;
+  }
+  .features__sub__title {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 1rem 0 0 0;
+  }
+  .features__area {
+	height: auto;
+	width: 100%;
+  }
+  .features__item {
+	height: auto;
+	margin: 1rem auto;
+	width: 90%;
+  }
+  @media screen and (max-width: 767px) {
+		.features__item {
+			margin-bottom: 8rem;
+		}
+	}
+  .features__item__title {
+	background: #eeeeee;
+	color: #333333;
+	font-size: 24px;
+	height: auto;
+	margin: 1rem auto;
+	padding: 0 0 0 1rem;
+	width: 85%;
+  }
+  .features__item__img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	width: 90%;
+  }
+  .features__item__text {
+	display: block;
+	height: auto;
+	margin: 2rem auto;
+	width: 90%;
+  }

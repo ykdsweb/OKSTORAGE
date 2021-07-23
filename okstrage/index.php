@@ -1,106 +1,60 @@
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>倉敷で収納できるトランクルーム・レンタル倉庫をお探しならOK!ストレージ</title>
-    <meta name="description" content="OK!ストレージなら、24時間出し入れOK！防犯対策OK!月々1万円からお申込み可能で、今なら「半年・半額キャンペーン」中！季節物の衣装、バイク、レジャー用品、工具類、などなど収納できるものは多岐に渡るので、まずは一度お問い合わせください。"/>
-	<meta name="keywords" content="収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ" />
-	<!-- BootstrapのCSS読み込み -->
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/table.css" rel="stylesheet">
-    <!-- 追尾バナーのjs -->
-    <script type="text/javascript" src="js/closeBanner.js"></script>
-    <!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T7VKQFP');</script>
-    <!-- End Google Tag Manager -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMFZEiPN3SPwGwINi8_S_6zxZwQPnvNd8"></script>
-	<!-- <script type="text/javascript" src="js/matchheight.js"></script> -->
-    <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-65743221-42', 'auto');
-	  ga('send', 'pageview');
-	
-	</script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2R5P1RGLC"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-X2R5P1RGLC');
-    </script>
-
-</head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7VKQFP"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<header class="init">
-	<div class="h_top"></div>
-    <div class="h_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <a href="" class="h_logo">倉敷で収納レンタルボックスをお探しなら、OK!ストレージ</a>
-                    <div class="h_bottom_pc">
-                        <a href="https://storage.cdpalma.jp/?ck=90c8d7ce60a7c32979c656617aec9c06" onclick="ga('send','event','click','click-contact');" class="h_contact">WEBからのお申し込み</a>
-                        <a href="tel:0120-75-6677" onclick="ga('send','event','click','tel-tap');" class="h_tel">
-                            <img class="img-responsive" src="img/h_tel.png" alt="0120-75-6677">
-                        </a>
-                        <p class="h_time">お電話窓口 <span>10:00〜18:00</span></p>
-                    </div>
-                    <div class="h_bottom_sp">
-                    	<p class="h_time">お電話窓口 <span>10:00〜18:00</span></p>
-                        <a href="tel:0120756677" onclick="ga('send','event','click','tel-tap');" class="h_tel">
-                            <img class="img-responsive" src="img/h_tel.png" alt="0120-75-6677">
-                        </a>
-                        <a href="https://storage.cdpalma.jp/?ck=90c8d7ce60a7c32979c656617aec9c06" onclick="ga('send','event','click','click-contact');" class="h_contact">WEBからのお申し込み</a>
-                    </div>
+<!-- headerは外部ファイル -->
+<?php include("header.php"); ?>
+<!-- headerは外部ファイル -->
+<section class="fv">
+    <div class="fv_img"></div>
+</section>
+<!-- サイドに追尾するバナーを設置する ここから-->
+    <?php include("closeBanner.php"); ?>
+<!-- サイドに追尾するバナーを設置する ここまで -->
+<section class="can">
+    <h2 class="campaign">OK!ストレージのここがいい！！</h2>
+    <div class="can_area pd-common">
+	<div class="summary__item flex__left">
+		<div class="summary__item__square--navy"></div>
+		<h2 class="summary__item__title item__line--navy">利用者の声</h2>
+	</div>
+	<br />
+	<div class="summary__item">
+		<div class="summary__item__img"><img src="img/MX_series_00.jpg" width="100%" height="auto" alt=""></div>
+		<!-- <p class="summary__item__caption">説明</p>
+		<div class="summary__item__variation">
+			<h3 class="summary__item__text">詳しい内容</h3>
+		</div> -->
+		<div class="flex__evenry">
+			<div class="features__area">
+				<div class="features__item">
+					<h3 class="features__item__title">山田 太郎さん</h3>
+					<img class="features__item__img" src="img/girl_00.png">
+					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+				</div>
+			</div>
+			<div class="features__area">
+				<div class="features__item">
+					<h3 class="features__item__title">大杉 家財さん</h3>
+					<img class="features__item__img" src="img/girl_00.png">
+					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+				</div>
+			</div>
+			<div class="features__area">
+				<div class="features__item">
+					<h3 class="features__item__title">優柔 不断さん</h3>
+					<img class="features__item__img" src="img/girl_00.png">
+					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+				</div>
+			</div>
+	</div>
+    </div>
+    <div class="campaign pd-common">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-sm-12">
+                	<img class="img-responsive mb30" src="img/hangaku_txt.png" alt="今なら半年・半額キャンペーン中!">
                 </div>
             </div>
         </div>
     </div>
-</header>
-<section class="fv">
-	<div class="fv_img"></div>
 </section>
-<!-- サイドに追尾するバナーを設置する ここから-->
-<section>
-<div class="closeBanner">
-    <a href="https://storage.cdpalma.jp/?ck=90c8d7ce60a7c32979c656617aec9c06">
-        <img class="pc" src="img/okscb_PC_00.jpg" alt="今ならキャンペーン中">
-    </a>
-    <a href="tel:0120-75-6677">
-        <img class="sp" src="img/okscb_SP_00.jpg" alt="お電話はこちら">
-    </a>
-    <p class="close">
-        <a href="javascript:void(0)">
-            <span>❌</span>
-            <i aria-hidden="true" class="fa fa-times"></i>
-        </a>
-    </p>
-</div>
-</section>
-<!-- サイドに追尾するバナーを設置する ここまで -->
 <!-- キャンペーン用テーブルここから -->
 <section>
     <h2 class="campaign">キャンペーン開催中！！</h2>
@@ -462,139 +416,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </section>
-
-<div class="f_top"></div>
-<footer id="footer">
-	<div class="container">
-    	<div class="row">
-        	<div class="col-sm-12">
-            	<div class="cr">Copyright(C) 株式会社YKGホールディングス All rights Reserved.</div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script>
-	jQuery(function(){
-		jQuery(".match").matchHeight();
-	});
-	jQuery(function(){
-		var ua = navigator.userAgent.toLowerCase();
-		var isMobile = /iphone/.test(ua)||/android(.+)?mobile/.test(ua);
-	
-		if (!isMobile) {
-			jQuery('a[href^="tel:"]').on('click', function(e) {
-				e.preventDefault();
-			});
-		}
-	});
-	
-	jQuery(function(){
-		var map;
-		var marker;
-		var center = {
-		lat: 34.576899, // 緯度
-		lng: 133.725054 // 経度
-	};
-	function initialize() {
-		var mapOptions = {
-			zoom: 15,
-			scrollwheel: false,
-			center: new google.maps.LatLng(34.576899,133.725054)
-		};
-	
-		map = new google.maps.Map(document.getElementById('map'),
-		mapOptions);
-		marker = new google.maps.Marker({
-			position: center,
-			map: map // マーカーを立てる地図を指定
-		});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
-});
-</script>
-
-<script>
-    jQuery(function () {
-        jQuery(".match").matchHeight();
-    });
-    jQuery(function () {
-        var ua = navigator.userAgent.toLowerCase();
-        var isMobile = /iphone/.test(ua) || /android(.+)?mobile/.test(ua);
-
-        if (!isMobile) {
-            jQuery('a[href^="tel:"]').on('click', function (e) {
-                e.preventDefault();
-            });
-        }
-    });
-
-    jQuery(function () {
-        var map;
-        var marker;
-        var center = {
-            lat: 34.5897102, // 緯度
-            lng: 133.7593876 // 経度
-        };
-        function initialize() {
-            var mapOptions = {
-                zoom: 15,
-                scrollwheel: false,
-                center: new google.maps.LatLng(34.5897102, 133.7593876)
-            };
-
-            map = new google.maps.Map(document.getElementById('map2'),
-                mapOptions);
-            marker = new google.maps.Marker({
-                position: center,
-                map: map // マーカーを立てる地図を指定
-            });
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    });
-</script>
-<script>
-    jQuery(function () {
-        jQuery(".match").matchHeight();
-    });
-    jQuery(function () {
-        var ua = navigator.userAgent.toLowerCase();
-        var isMobile = /iphone/.test(ua) || /android(.+)?mobile/.test(ua);
-
-        if (!isMobile) {
-            jQuery('a[href^="tel:"]').on('click', function (e) {
-                e.preventDefault();
-            });
-        }
-    });
-
-    jQuery(function () {
-        var map;
-        var marker;
-        var center = {
-            lat: 34.539750, // 緯度
-            lng: 133.743806 // 経度
-        };
-        function initialize() {
-            var mapOptions = {
-                zoom: 15,
-                scrollwheel: false,
-                center: new google.maps.LatLng(34.539750, 133.743806)
-            };
-
-            map = new google.maps.Map(document.getElementById('map3'),
-                mapOptions);
-            marker = new google.maps.Marker({
-                position: center,
-                map: map // マーカーを立てる地図を指定
-            });
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    });
-</script>
-<div id="pagetop">
-    <a href="#"></a>
-</div>
-</body>
-
-</html>
+<!-- footerは外部ファイル -->
+<?php include("footer.php"); ?>
+<!-- footerは外部ファイル -->
