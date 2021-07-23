@@ -637,9 +637,15 @@ ul.f_soudan img.img-responsive:hover {
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 .closeBanner {
 	position: fixed; /* 追従 */
-	z-index: 99999; /* 他の要素の下に隠れないように */
-	bottom: 60px; /* バナーの上下の位置 */
+	z-index: 1; /* 他の要素の下に隠れないように */
+	bottom: 12rem; /* バナーの上下の位置 */
 	right: 0; /* バナーの左右の位置 */
+  }
+  @media screen and (max-width: 767px) {
+	.closeBanner {
+		bottom: 0;
+		right: 0;
+	  }
   }
   .closeBanner .pc {
 	width: 300px; /* バナーの横幅を指定 */
@@ -711,4 +717,42 @@ ul.f_soudan img.img-responsive:hover {
 	top: 0;
 	height: 100%;
 	width: 100%;
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+	Topへ戻るボタンのCSS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+#pagetop {
+    background-image: url("../img/toTopPage_02.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 1rem;
+    position: fixed;
+    right: 0;
+	width: 104px;
+	height: 104px;
+}
+@media screen and (max-width: 767px) {
+	#pagetop {
+		bottom: 8rem;
+	}
+}
+#pagetop a {
+	background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 1rem;
+    position: fixed;
+    right: 0;
+	width: 104px;
+	height: 104px;
+}
+@media screen and (max-width: 767px) {
+	#pagetop a {
+		bottom: 8rem;
+	}
+}
+#pagetop a:hover {
+    background-image: url("../img/toTopPage_03.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
