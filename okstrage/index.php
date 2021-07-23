@@ -25,22 +25,22 @@
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">山田 太郎さん</h3>
-					<img class="features__item__img" src="img/girl_00.png">
-					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+					<img class="features__item__img" src="img/guy_00.png">
+					<p class="features__item__text"><a href="users.php">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">大杉 家財さん</h3>
 					<img class="features__item__img" src="img/girl_00.png">
-					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+					<p class="features__item__text"><a href="users.php">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">優柔 不断さん</h3>
 					<img class="features__item__img" src="img/girl_00.png">
-					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+					<p class="features__item__text"><a href="users.php">詳しく見る</a></p>
 				</div>
 			</div>
 	</div>
