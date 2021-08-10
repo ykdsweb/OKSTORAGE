@@ -24,22 +24,22 @@
 		<div class="flex__evenry">
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">山田 太郎さん</h3>
-					<img class="features__item__img" src="img/girl_00.png">
+					<h3 class="features__item__title">預け 太郎さん</h3>
+					<img class="features__item__img" src="img/family_00.png">
 					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">大杉 家財さん</h3>
-					<img class="features__item__img" src="img/girl_00.png">
+					<h3 class="features__item__title">大杉 家財さんご家族</h3>
+					<img class="features__item__img" src="img/family_01.png">
 					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">優柔 不断さん</h3>
-					<img class="features__item__img" src="img/girl_00.png">
+					<h3 class="features__item__title">優柔 不断さんご夫婦</h3>
+					<img class="features__item__img" src="img/family_02.png">
 					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
 				</div>
 			</div>
@@ -66,6 +66,10 @@
         </div>
     </div>
 </div>
+
+<section class="">
+    <!-- ここに各利用者の声を掲載する -->
+</section>
 
 <!-- キャンペーン用テーブルここから -->
 <section>
