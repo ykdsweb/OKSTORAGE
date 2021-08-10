@@ -7,54 +7,9 @@
 <!-- サイドに追尾するバナーを設置する ここから-->
     <?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
-<section class="can">
-    <h2 class="campaign">OK!ストレージのここがいい！！</h2>
-    <div class="can_area pd-common">
-	<div class="summary__item flex__left">
-		<div class="summary__item__square--navy"></div>
-		<h2 class="summary__item__title item__line--navy">利用者の声</h2>
-	</div>
-	<br />
-	<div class="summary__item">
-		<div class="summary__item__img"><img src="img/MX_series_00.jpg" width="100%" height="auto" alt=""></div>
-		<!-- <p class="summary__item__caption">説明</p>
-		<div class="summary__item__variation">
-			<h3 class="summary__item__text">詳しい内容</h3>
-		</div> -->
-		<div class="flex__evenry">
-			<div class="features__area">
-				<div class="features__item">
-					<h3 class="features__item__title">山田 太郎さん</h3>
-					<img class="features__item__img" src="img/guy_00.png">
-					<p class="features__item__text"><a href="users.php">詳しく見る</a></p>
-				</div>
-			</div>
-			<div class="features__area">
-				<div class="features__item">
-					<h3 class="features__item__title">大杉 家財さん</h3>
-					<img class="features__item__img" src="img/girl_00.png">
-					<p class="features__item__text"><a href="users.php">詳しく見る</a></p>
-				</div>
-			</div>
-			<div class="features__area">
-				<div class="features__item">
-					<h3 class="features__item__title">優柔 不断さん</h3>
-					<img class="features__item__img" src="img/girl_00.png">
-					<p class="features__item__text"><a href="users.php">詳しく見る</a></p>
-				</div>
-			</div>
-	</div>
-    </div>
-    <div class="campaign pd-common">
-    	<div class="container">
-        	<div class="row">
-            	<div class="col-sm-12">
-                	<img class="img-responsive mb30" src="img/hangaku_txt.png" alt="今なら半年・半額キャンペーン中!">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="summary__item__img">
+    <a href="users.php"><img src="img/OKStrage_banner_01.png" width="100%" height="auto" alt=""></a>
+</div>
 <!-- キャンペーン用テーブルここから -->
 <section>
     <h2 class="campaign">キャンペーン開催中！！</h2>

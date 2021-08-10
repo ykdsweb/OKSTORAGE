@@ -802,9 +802,15 @@ ul.f_soudan img.img-responsive:hover {
 	width: 90%;
   }
   .summary__item__img {
-	box-sizing: border-box;
-	height: auto;
-	width: 100%;
+	background-color: #f0fff0;
+    box-sizing: border-box;
+	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+    margin: 2rem auto;
+    height: auto;
+    width: 90%;
+  }
+  .summary__item__img:hover {
+	opacity: 0.8;
   }
   .summary__item__square--red {
 	background: #AA1B20;
@@ -949,6 +955,12 @@ ul.f_soudan img.img-responsive:hover {
 	height: auto;
 	margin: 0 auto;
 	width: 90%;
+  }
+  .features__item__img--half {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	width: 50%;
   }
   .features__item__text {
 	display: block;
