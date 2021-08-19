@@ -24,23 +24,23 @@
 		<div class="flex__evenry">
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">預け 太郎さん</h3>
+					<h3 class="features__item__title">預け 太郎さん(35)</h3>
 					<img class="features__item__img" src="img/family_00.png">
-					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">大杉 家財さんご家族</h3>
 					<img class="features__item__img" src="img/family_01.png">
-					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">優柔 不断さんご夫婦</h3>
 					<img class="features__item__img" src="img/family_02.png">
-					<p class="features__item__text"><a href="user_00">詳しく見る</a></p>
+					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 	</div>
@@ -67,8 +67,39 @@
     </div>
 </div>
 
-<section class="">
-    <!-- ここに各利用者の声を掲載する -->
+<section id="voice" class="voice">
+
+    <div class="voice__area backGroundColor--blue">
+        <h2 class="voice__title">預け 太郎さん(35歳)</h2>
+        <div class="flex__evenry">
+            <div class="voice__image">
+                <img src="/img/family_00.png" height="" width="" alt="" />
+            </div>
+            <div class="voice__text__area"><p class="voice__text">季節によって使うものと使わないものがあるので、趣味のキャンプ道具など預けるのに重宝しています。テントやバーベキューコンロが家の中にあると、空間をかなり圧迫しますしね。逆に取り出したい時はいつでも取り出せるので急遽キャンプが決まった時とかは助かります。割と04:00出発とかあるのでこれからも自分はOKストレージを利用させてもらいます。
+            </p></div>
+        </div>
+    </div>
+
+    <div class="voice__area backGroundColor--yellow">
+        <h2 class="voice__title">大杉 家財さんご家族</h2>
+        <div class="flex__evenry">
+            <div class="voice__image">
+                <img src="/img/family_01.png" height="" width="" alt="" />
+            </div>
+            <div class="voice__text__area"><p class="voice__text">ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。</p></div>
+        </div>
+    </div>
+
+    <div class="voice__area backGroundColor--blue">
+        <h2 class="voice__title">優柔 不断さんご夫婦</h2>
+        <div class="flex__evenry">
+            <div class="voice__image">
+                <img src="/img/family_02.png" height="" width="" alt="" />
+            </div>
+            <div class="voice__text__area"><p class="voice__text">ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。</p></div>
+        </div>
+    </div>
+
 </section>
 
 <!-- キャンペーン用テーブルここから -->
