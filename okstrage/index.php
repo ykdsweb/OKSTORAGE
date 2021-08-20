@@ -8,7 +8,10 @@
     <?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
 <div class="summary__item__img">
-    <a href="users.php"><img src="img/OKStrage_banner_01.png" width="100%" height="auto" alt=""></a>
+    <a href="users.php">
+        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
+    </a>
 </div>
 <!-- キャンペーン用テーブルここから -->
 <section>

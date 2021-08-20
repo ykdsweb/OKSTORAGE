@@ -89,3 +89,6 @@ typings/
 
 # Hidden files used by unix
 .DS_Store
+
+# 削除記録を記録しない
+.DS_Store

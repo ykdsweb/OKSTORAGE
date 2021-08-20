@@ -812,6 +812,24 @@ ul.f_soudan img.img-responsive:hover {
   .summary__item__img:hover {
 	opacity: 0.8;
   }
+/* .summary__item__img--pc {
+	display: inline-block;
+    width: 100%;
+} */
+@media screen and (max-width: 767px) {
+	.summary__item__img--pc {
+		display:none ;
+	}
+}
+.summary__item__img--sp {
+	display: none;
+}
+@media screen and (max-width: 767px) {
+	.summary__item__img--sp {
+		display: inline-block;
+		width: 100%;
+	}
+}
   .summary__item__square--red {
 	background: #AA1B20;
 	height: 88px;
