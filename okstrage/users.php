@@ -1,5 +1,5 @@
 <!-- headerは外部ファイル -->
-<?php include("header.php"); ?>
+    <?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
 <section class="fv">
     <div class="fv_img"></div>
@@ -16,29 +16,24 @@
 	</div>
 	<br />
 	<div class="summary__item">
-		<div class="summary__item__img"><img src="img/MX_series_00.jpg" width="100%" height="auto" alt=""></div>
-		<!-- <p class="summary__item__caption">説明</p>
-		<div class="summary__item__variation">
-			<h3 class="summary__item__text">詳しい内容</h3>
-		</div> -->
 		<div class="flex__evenry">
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">預け 太郎さん(35)</h3>
+					<h3 class="features__item__title">冨田 由伸さん(32歳)</h3>
 					<img class="features__item__img" src="img/family_00.png">
 					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">大杉 家財さんご家族</h3>
+					<h3 class="features__item__title">宮島さんご家族</h3>
 					<img class="features__item__img" src="img/family_01.png">
 					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
-					<h3 class="features__item__title">優柔 不断さんご夫婦</h3>
+					<h3 class="features__item__title">三宅さんご夫婦</h3>
 					<img class="features__item__img" src="img/family_02.png">
 					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
@@ -70,33 +65,33 @@
 <section id="voice" class="voice">
 
     <div class="voice__area backGroundColor--blue">
-        <h2 class="voice__title">預け 太郎さん(35歳)</h2>
+        <h2 class="voice__title">冨田 由伸さん(32歳)</h2>
         <div class="flex__evenry">
             <div class="voice__image">
-                <img src="/img/family_00.png" height="" width="" alt="" />
+                <img src="img/family_00.png" height="" width="" alt="" />
             </div>
-            <div class="voice__text__area"><p class="voice__text">季節によって使うものと使わないものがあるので、趣味のキャンプ道具など預けるのに重宝しています。テントやバーベキューコンロが家の中にあると、空間をかなり圧迫しますしね。逆に取り出したい時はいつでも取り出せるので急遽キャンプが決まった時とかは助かります。割と04:00出発とかあるのでこれからも自分はOKストレージを利用させてもらいます。
+            <div class="voice__text__area"><p class="voice__text">季節によって使うものと使わないものがあるので、趣味のキャンプ道具など預けるのに重宝しています。テントやバーベキューコンロが家の中にあると、空間をかなり圧迫しますしね。逆に取り出したい時はいつでも取り出せるので急遽キャンプが決まった時とかは助かります。<br /><br />また冬にはスノーボードにも出かけるので、夏物と冬物を家から出すことで「こんなにスッキリするんだ！」という印象です。僕みたいに整理整頓が苦手な人ほど、預けちゃえばいいのでおすすめですよ！
             </p></div>
         </div>
     </div>
 
     <div class="voice__area backGroundColor--yellow">
-        <h2 class="voice__title">大杉 家財さんご家族</h2>
+        <h2 class="voice__title">宮島さんご家族</h2>
         <div class="flex__evenry">
             <div class="voice__image">
-                <img src="/img/family_01.png" height="" width="" alt="" />
+                <img src="img/family_01.png" height="" width="" alt="" />
             </div>
-            <div class="voice__text__area"><p class="voice__text">ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。</p></div>
+            <div class="voice__text__area"><p class="voice__text">うちは家族で利用しています。例えばベビーカーとか、捨てたくないこども服とか、「これだけは家に残しておきたい！！」っていうのがあるじゃないですか？でも家に置いとくのも困るし。。。あと、一番助かったのは夏のプールとか、子供用のアスレチック！捨てられないし、置くとこないしで困ってたのでこれは助かったなって思いました。急に「プール入りたいっ！」て言われた時はすぐ取りに行けるし。自分の都合で物を預かってくれるところって、なかなかないですよね。</p></div>
         </div>
     </div>
 
     <div class="voice__area backGroundColor--blue">
-        <h2 class="voice__title">優柔 不断さんご夫婦</h2>
+        <h2 class="voice__title">三宅さんご夫婦</h2>
         <div class="flex__evenry">
             <div class="voice__image">
-                <img src="/img/family_02.png" height="" width="" alt="" />
+                <img src="img/family_02.png" height="" width="" alt="" />
             </div>
-            <div class="voice__text__area"><p class="voice__text">ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。ここに利用者のコメント。</p></div>
+            <div class="voice__text__area"><p class="voice__text">うちは家が近いのでよく利用しています。趣味のバイクや模型、スポーツ用品など保管するのに最適です。バイクを家で保管すると日光や雨風で保存状態が悪くなったり、安全性がちょっと不安です。盗難される心配もないし、妻に色々言われなくて済むのでありがたいです(笑)</p></div>
         </div>
     </div>
 
