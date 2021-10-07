@@ -1,19 +1,18 @@
 <!-- headerは外部ファイル -->
 <?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
-<section class="fv">
-    <div class="fv_img"></div>
+
+<section>
+<ul class="slider">
+    <li><a href="https://ykdeok.com/okstrage/users.php"><img class="slider__img__01"></a></li>
+    <li><a href="#"><img class="slider__img__00"></a></li>
+</ul>
 </section>
+
 <!-- サイドに追尾するバナーを設置する ここから-->
     <?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
-<div class="summary__item__img">
-    <a href="users.php">
-        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
-        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
-    </a>
-</div>
-<!-- キャンペーン用テーブルここから -->
+
 <section>
     <h2 class="campaign">キャンペーン開催中！！</h2>
     <table class="tbl_r04">
@@ -305,6 +304,12 @@
     </table>
 </section>
 <!-- キャンペーン用テーブルここまで -->
+<div class="summary__item__img">
+    <a href="users.php">
+        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
+    </a>
+</div>
 <section class="trunk pd-common">
 	<div class="container">
     	<div class="row mb80">

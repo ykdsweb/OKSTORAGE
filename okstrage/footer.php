@@ -10,6 +10,15 @@
 </footer>
 
 <script>
+// sliderのjQuery
+$('.slider').slick({
+autoplay:true,
+autoplaySpeed:5000,
+dots:true,
+});
+</script>
+
+<script>
 	jQuery(function(){
 		jQuery(".match").matchHeight();
 	});
