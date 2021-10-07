@@ -1,8 +1,11 @@
 <!-- headerは外部ファイル -->
     <?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
-<section class="fv">
-    <div class="fv_img"></div>
+<section>
+<ul class="slider">
+    <li><a href="https://ykdeok.com/okstrage/users.php"><img class="slider__img__01"></a></li>
+    <li><a href="#"><img class="slider__img__00"></a></li>
+</ul>
 </section>
 <!-- サイドに追尾するバナーを設置する ここから-->
     <?php include("closeBanner.php"); ?>
