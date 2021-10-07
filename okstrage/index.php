@@ -1,9 +1,24 @@
 <!-- headerは外部ファイル -->
 <?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
+
 <section class="fv">
     <div class="fv_img"></div>
 </section>
+
+<section>
+<div class="prev"></div>
+        <div class="sliderbox">
+            <ul class="sliderlist">
+                <!-- 今回は画像ではなく色で実装しています。画像の場合は、liタグの中に挿入すると実装できます。 -->
+                <li class="sliderlist__item sliderlist__item1"></li>
+                <li class="sliderlist__item sliderlist__item2"></li>
+                <li class="sliderlist__item sliderlist__item3"></li>
+            </ul>
+        </div>
+        <div class="next"></div>
+</section>
+
 <!-- サイドに追尾するバナーを設置する ここから-->
     <?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
