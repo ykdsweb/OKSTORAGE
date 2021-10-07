@@ -278,25 +278,6 @@ header .h_top {
 /* =============================================================================================== */
 /* ======================================== トップページ ========================================= */
 /* =============================================================================================== */
-.fv_img {
-	background-image: url("../img/fv.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 30%;
-}
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-	.fv_img {
-		background-size: 130% auto;
-		padding-bottom: 39%;
-	}
-}
-@media screen and (max-width: 767px) {
-	.fv_img {
-		background-size: 180% auto;
-		padding-bottom: 54%;
-	}
-}
 
 .intro .container .intro_item_list {
 	max-width: 900px;
@@ -1061,62 +1042,54 @@ ul.f_soudan img.img-responsive:hover {
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  スライダーのCSS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-
-.container{
-    position: relative;
-    width: 500px;
-    height: 300px;
-    margin: 100px auto 0;
+.slider__img__00 {
+	background-image: url("../img/fv.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 30%;
 }
-
-.sliderbox{
-    border: 2px solid red;
-    overflow: hidden;
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	.slider__img__00 {
+		background-size: 130% auto;
+		padding-bottom: 39%;
+	}
 }
-
-.sliderlist{
-    display: flex;
-    list-style: none;
+@media screen and (max-width: 767px) {
+	.slider__img__00 {
+		background-size: 180% auto;
+		padding-bottom: 54%;
+	}
 }
-
-.sliderlist__item{
-    flex-shrink: 0;
-    width: 500px;
-    height: 300px;
+.slider__img__01 {
+	background-image: url("../img/OKStrage_main_00.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 30%;
 }
-
-.sliderlist__item1{
-    background-color: rgb(245, 245, 245);
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	.slider__img__01 {
+		background-size: 130% auto;
+		padding-bottom: 39%;
+	}
 }
-
-.sliderlist__item2{
-    background-color: rgb(225, 225, 225);
+@media screen and (max-width: 767px) {
+	.slider__img__01 {
+		background-size: 180% auto;
+		padding-bottom: 54%;
+	}
 }
-
-.sliderlist__item3{
-    background-color: rgb(205, 205, 205);
+.slider{
+    margin: 1em auto;
+    width: 100%;
 }
-/* 矢印 */
-.prev{
-    position: absolute;
-    top: 50%;
-    left: -5%;
-    display: none;
-    width: 30px;
-    height: 30px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    cursor: pointer;
-    transform: translateY(-50%) rotate(45deg);
+.slider img{
+    height: auto;
+    width: 100%;
 }
-.next{
-    position: absolute;
-    top: 50%;
-    right: -5%;
-    width: 30px;
-    height: 30px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    cursor: pointer;
-    transform: translateY(-50%) rotate(-45deg);
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #333333;
 }
