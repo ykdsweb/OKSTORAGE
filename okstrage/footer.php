@@ -8,7 +8,7 @@
         </div>
     </div>
 </footer>
-
+</div>
 <script>
 // sliderのjQuery
 $('.slider').slick({
