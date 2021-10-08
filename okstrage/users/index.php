@@ -4,7 +4,7 @@ define("description" ,"OKストレージを利用しようか迷っています�
 define("keywords", "収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ");
 ?>
 <!-- headerは外部ファイル -->
-<?php include("header.php"); ?>
+<?php include("/common/header.php"); ?>
 <!-- headerは外部ファイル -->
 <section>
 <ul class="slider">
@@ -14,7 +14,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 </ul>
 </section>
 <!-- サイドに追尾するバナーを設置する ここから-->
-<?php include("closeBanner.php"); ?>
+<?php include("/closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
 <section class="can">
     <h2 class="campaign">OK!ストレージのここがいい！！</h2>
@@ -29,21 +29,21 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">冨田 由伸さん(32歳)</h3>
-					<img class="features__item__img" src="img/family_00.png">
+					<img class="features__item__img" src="/img/family_00.png">
 					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">宮島さんご家族</h3>
-					<img class="features__item__img" src="img/family_01.png">
+					<img class="features__item__img" src="/img/family_01.png">
 					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
 			<div class="features__area">
 				<div class="features__item">
 					<h3 class="features__item__title">三宅さんご夫婦</h3>
-					<img class="features__item__img" src="img/family_02.png">
+					<img class="features__item__img" src="/img/family_02.png">
 					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
 				</div>
 			</div>
@@ -53,7 +53,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
     	<div class="container">
         	<div class="row">
             	<div class="col-sm-12">
-                	<img class="img-responsive mb30" src="img/hangaku_txt.png" alt="今なら半年・半額キャンペーン中!">
+                	<img class="img-responsive mb30" src="/img/hangaku_txt.png" alt="今なら半年・半額キャンペーン中!">
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 	<div class="row">
     	<div class="col-sm-12">
         	<a href="https://storage.cdpalma.jp/?ck=90c8d7ce60a7c32979c656617aec9c06" onclick="ga('send','event','click','click-contact');" target="_blank">
-            	<img class="img-responsive mb20" src="img/contact_btn.png" alt="0120-75-6677 WEBからのお申し込みはこちら!">
+            	<img class="img-responsive mb20" src="/img/contact_btn.png" alt="0120-75-6677 WEBからのお申し込みはこちら!">
             </a>
             <p class="">※短期解約違約金について<br>1年未満でのご解約の場合、キャンペーン割引分をご請求させて頂きますことをご了承ください。</p>
         </div>
@@ -77,7 +77,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
         <h2 class="voice__title">冨田 由伸さん(32歳)</h2>
         <div class="flex__evenry">
             <div class="voice__image">
-                <img src="img/family_00.png" height="" width="" alt="" />
+                <img src="/img/family_00.png" height="" width="" alt="" />
             </div>
             <div class="voice__text__area"><p class="voice__text">季節によって使うものと使わないものがあるので、趣味のキャンプ道具など預けるのに重宝しています。テントやバーベキューコンロが家の中にあると、空間をかなり圧迫しますしね。逆に取り出したい時はいつでも取り出せるので急遽キャンプが決まった時とかは助かります。<br /><br />また冬にはスノーボードにも出かけるので、夏物と冬物を家から出すことで「こんなにスッキリするんだ！」という印象です。僕みたいに整理整頓が苦手な人ほど、預けちゃえばいいのでおすすめですよ！
             </p></div>
@@ -88,7 +88,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
         <h2 class="voice__title">宮島さんご家族</h2>
         <div class="flex__evenry">
             <div class="voice__image">
-                <img src="img/family_01.png" height="" width="" alt="" />
+                <img src="/img/family_01.png" height="" width="" alt="" />
             </div>
             <div class="voice__text__area"><p class="voice__text">うちは家族で利用しています。例えばベビーカーとか、捨てたくないこども服とか、「これだけは家に残しておきたい！！」っていうのがあるじゃないですか？でも家に置いとくのも困るし。。。あと、一番助かったのは夏のプールとか、子供用のアスレチック！捨てられないし、置くとこないしで困ってたのでこれは助かったなって思いました。急に「プール入りたいっ！」て言われた時はすぐ取りに行けるし。自分の都合で物を預かってくれるところって、なかなかないですよね。</p></div>
         </div>
@@ -98,7 +98,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
         <h2 class="voice__title">三宅さんご夫婦</h2>
         <div class="flex__evenry">
             <div class="voice__image">
-                <img src="img/family_02.png" height="" width="" alt="" />
+                <img src="/img/family_02.png" height="" width="" alt="" />
             </div>
             <div class="voice__text__area"><p class="voice__text">うちは家が近いのでよく利用しています。趣味のバイクや模型、スポーツ用品など保管するのに最適です。バイクを家で保管すると日光や雨風で保存状態が悪くなったり、安全性がちょっと不安です。盗難される心配もないし、妻に色々言われなくて済むのでありがたいです(笑)</p></div>
         </div>
@@ -159,14 +159,14 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 <!-- キャンペーン用テーブルここまで -->
 <div class="summary__item__img">
     <a href="users.php">
-        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
-        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
+        <img class="summary__item__img--pc" src="/img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="/img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
     </a>
 </div>
 <div class="summary__item__img">
     <a href="detail.php">
-        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC_01.jpg" width="100%" height="auto" alt="">
-        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP_01.jpg" width="100%" height="auto" alt="">
+        <img class="summary__item__img--pc" src="/img/OKStrage_banner_PC_01.jpg" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="/img/OKStrage_banner_SP_01.jpg" width="100%" height="auto" alt="">
     </a>
 </div>
 <section class="trunk pd-common">
@@ -223,14 +223,14 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
                     </li><!--
                  --><li class="match">
                     	<a href="tel:0120756677" onclick="ga('send','event','click','tel-tap');">
-                            <img class="img-responsive mb10" src="img/f_tel.png" alt="0120-75-6677">
+                            <img class="img-responsive mb10" src="/img/f_tel.png" alt="0120-75-6677">
                         </a>
                         <!-- <a href="https://storage.cdpalma.jp/?ck=90c8d7ce60a7c32979c656617aec9c06" onclick="ga('send','event','click','click-contact');" target="_blank">
                             <img class="img-responsive" src="img/f_contact.png" alt="0120-75-6677">
                         </a> -->
                         <a href="https://forms.gle/uQfXEiMq58PwGt16A"
                             onclick="ga('send','event','click','click-contact');" target="_blank">
-                            <img class="img-responsive" src="img/f_contact.png" alt="0120-75-6677">
+                            <img class="img-responsive" src="/img/f_contact.png" alt="0120-75-6677">
                         </a>
                     </li>
                 </ul>
@@ -239,5 +239,5 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
     </div>
 </section>
 <!-- footerは外部ファイル -->
-<?php include("footer.php"); ?>
+<?php include("/footer.php"); ?>
 <!-- footerは外部ファイル -->

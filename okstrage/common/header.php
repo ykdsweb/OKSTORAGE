@@ -7,18 +7,18 @@
     <title><?php echo title; ?></title>
     <meta name="description" content="<?php echo description; ?>" />
 	<meta name="keywords" content="<?php echo keywords; ?>" />
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="./css/style.css?<?php echo date('Ymd-Hi'); ?>" rel="stylesheet">
-    <link href="./css/table.css" rel="stylesheet">
-    <link href="./css/slick-theme.css" rel="stylesheet" type="text/css">
-    <link href="./css/slick.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="./js/closeBanner.js"></script>
-    <script type="text/javascript" src="./js/slick.js"></script>
-    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <link href="/css/style.css?<?php echo date('Ymd-Hi'); ?>" rel="stylesheet">
+    <link href="/css/table.css" rel="stylesheet">
+    <link href="/css/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="/css/slick.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/closeBanner.js"></script>
+    <script type="text/javascript" src="/js/slick.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
     <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
