@@ -8,8 +8,8 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 <!-- headerは外部ファイル -->
 <section>
 <ul class="slider">
-    <li><a href="https://ykdeok.com/okstrage/detail"><img class="slider__img__02"></a></li>
-    <li><a href="https://ykdeok.com/okstrage/users"><img class="slider__img__01"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/detail.php"><img class="slider__img__02"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/users.php"><img class="slider__img__01"></a></li>
     <li><a href="https://ykdeok.com/okstrage/"><img class="slider__img__00"></a></li>
 </ul>
 </section>
@@ -178,6 +178,18 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
     </table>
 </section>
 <!-- キャンペーン用テーブルここまで -->
+<div class="summary__item__img">
+    <a href="users.php">
+        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
+    </a>
+</div>
+<div class="summary__item__img">
+    <a href="detail.php">
+        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC_01.jpg" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP_01.jpg" width="100%" height="auto" alt="">
+    </a>
+</div>
 <section class="trunk pd-common">
 	<div class="container">
     	<div class="row mb80">
