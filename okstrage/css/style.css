@@ -785,7 +785,7 @@ ul.f_soudan img.img-responsive:hover {
   .summary__item__img {
 	background-color: #f0fff0;
     box-sizing: border-box;
-	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.2));
     margin: 2rem auto;
     height: auto;
     width: 90%;
@@ -1076,6 +1076,25 @@ ul.f_soudan img.img-responsive:hover {
 }
 @media screen and (max-width: 767px) {
 	.slider__img__01 {
+		background-size: 180% auto;
+		padding-bottom: 54%;
+	}
+}
+.slider__img__02 {
+	background-image: url("../img/detail_main_img_00.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 30%;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+	.slider__img__02 {
+		background-size: 130% auto;
+		padding-bottom: 39%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.slider__img__02 {
 		background-size: 180% auto;
 		padding-bottom: 54%;
 	}

@@ -1,18 +1,21 @@
+<?php
+define("title" ,"倉敷で収納できるトランクルーム・レンタル倉庫をお探しならOK!ストレージ");
+define("description" ,"OK!ストレージなら、24時間出し入れOK！防犯対策OK!月々1万円からお申込み可能で、今なら「半年・半額キャンペーン」中！季節物の衣装、バイク、レジャー用品、工具類、などなど収納できるものは多岐に渡るので、まずは一度お問い合わせください。");
+define("keywords", "収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ");
+?>
 <!-- headerは外部ファイル -->
 <?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
-
 <section>
 <ul class="slider">
-    <li><a href="https://ykdeok.com/okstrage/users.php"><img class="slider__img__01"></a></li>
-    <li><a href="#"><img class="slider__img__00"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/users"><img class="slider__img__01"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/detail"><img class="slider__img__02"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/"><img class="slider__img__00"></a></li>
 </ul>
 </section>
-
 <!-- サイドに追尾するバナーを設置する ここから-->
-    <?php include("closeBanner.php"); ?>
+<?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
-
 <section>
     <h2 class="campaign">キャンペーン開催中！！</h2>
     <table class="tbl_r04">
@@ -305,9 +308,15 @@
 </section>
 <!-- キャンペーン用テーブルここまで -->
 <div class="summary__item__img">
-    <a href="users.php">
+    <a href="users">
         <img class="summary__item__img--pc" src="img/OKStrage_banner_PC.png" width="100%" height="auto" alt="">
         <img class="summary__item__img--sp" src="img/OKStrage_banner_SP.png" width="100%" height="auto" alt="">
+    </a>
+</div>
+<div class="summary__item__img">
+    <a href="detail">
+        <img class="summary__item__img--pc" src="img/OKStrage_banner_PC_01.jpg" width="100%" height="auto" alt="">
+        <img class="summary__item__img--sp" src="img/OKStrage_banner_SP_01.jpg" width="100%" height="auto" alt="">
     </a>
 </div>
 <section class="trunk pd-common">

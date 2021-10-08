@@ -1,45 +1,79 @@
+<?php
+define("title" ,"OKストレージって何？レンタルストレージサービスについて詳しく解説!!");
+define("description" ,"OKストレージとは、簡単に言うと「貸倉庫」です。最近では、トランクルームとか、レンタルコンテナなどと言われています。");
+define("keywords", "収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ");
+?>
 <!-- headerは外部ファイル -->
 <?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
-<section class="fv">
-    <div class="fv_img"></div>
+<section>
+<ul class="slider">
+    <li><a href="https://ykdeok.com/okstrage/detail"><img class="slider__img__02"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/users"><img class="slider__img__01"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/"><img class="slider__img__00"></a></li>
+</ul>
 </section>
 <!-- サイドに追尾するバナーを設置する ここから-->
-    <?php include("closeBanner.php"); ?>
+<?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
 <section class="can">
-    <h2 class="campaign">OK!ストレージのここがいい！！</h2>
+    <h2 class="campaign">OKストレージってどんなサービス？</h2>
     <div class="can_area pd-common">
 	<div class="summary__item flex__left">
 		<div class="summary__item__square--navy"></div>
-		<h2 class="summary__item__title item__line--navy">利用者の声</h2>
+		<h2 class="summary__item__title item__line--navy">ご利用事例を紹介</h2>
 	</div>
 	<br />
 	<div class="summary__item">
-		<div class="flex__evenry">
-			<div class="features__area">
-				<div class="features__item">
-					<h3 class="features__item__title">冨田 由伸さん(32歳)</h3>
-					<img class="features__item__img" src="img/family_00.png">
-					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
-				</div>
-			</div>
-			<div class="features__area">
-				<div class="features__item">
-					<h3 class="features__item__title">宮島さんご家族</h3>
-					<img class="features__item__img" src="img/family_01.png">
-					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
-				</div>
-			</div>
-			<div class="features__area">
-				<div class="features__item">
-					<h3 class="features__item__title">三宅さんご夫婦</h3>
-					<img class="features__item__img" src="img/family_02.png">
-					<p class="features__item__text"><a href="#voice">詳しく見る</a></p>
-				</div>
-			</div>
+    <div class="flex__evenry">
+        <div class="features__area">
+            <div class="features__item">
+                <h3 class="features__item__title">バイクのガレージとして</h3>
+                <img class="features__item__img" src="img/detail_img_01.jpg">
+                <p class="features__item__text">大型バイクも楽々収納!!</p>
+            </div>
+        </div>
+        <div class="features__area">
+            <div class="features__item">
+                <h3 class="features__item__title">資材・道具置き場として</h3>
+                <img class="features__item__img" src="img/detail_img_00.jpg">
+                <p class="features__item__text">お仕事の道具類を収納!!</p>
+            </div>
+        </div>
+        <div class="features__area">
+            <div class="features__item">
+                <h3 class="features__item__title">家具の一時保管場所として</h3>
+                <img class="features__item__img" src="img/detail_img_02.jpg">
+                <p class="features__item__text">お家の家具もスッキリ収納!!</p>
+            </div>
+        </div>
 	</div>
     </div>
+    <!-- <div class="summary__item">
+    <div class="flex__evenry">
+        <div class="features__area">
+            <div class="features__item">
+                <h3 class="features__item__title">バイクのガレージとして</h3>
+                <img class="features__item__img" src="img/detail_img_01.jpg">
+                <p class="features__item__text">大型バイクも楽々収納!!</p>
+            </div>
+        </div>
+        <div class="features__area">
+            <div class="features__item">
+                <h3 class="features__item__title">資材・道具置き場として</h3>
+                <img class="features__item__img" src="img/detail_img_00.jpg">
+                <p class="features__item__text">お仕事の道具類を収納!!</p>
+            </div>
+        </div>
+        <div class="features__area">
+            <div class="features__item">
+                <h3 class="features__item__title">家具の一時保管場所として</h3>
+                <img class="features__item__img" src="img/detail_img_02.jpg">
+                <p class="features__item__text">お家の家具もスッキリ収納!!</p>
+            </div>
+        </div>
+	</div>
+    </div> -->
     <div class="campaign pd-common">
     	<div class="container">
         	<div class="row">
@@ -62,8 +96,7 @@
     </div>
 </div>
 
-<section id="voice" class="voice">
-
+<!-- <section id="voice" class="voice">
     <div class="voice__area backGroundColor--blue">
         <h2 class="voice__title">冨田 由伸さん(32歳)</h2>
         <div class="flex__evenry">
@@ -74,7 +107,6 @@
             </p></div>
         </div>
     </div>
-
     <div class="voice__area backGroundColor--yellow">
         <h2 class="voice__title">宮島さんご家族</h2>
         <div class="flex__evenry">
@@ -84,7 +116,6 @@
             <div class="voice__text__area"><p class="voice__text">うちは家族で利用しています。例えばベビーカーとか、捨てたくないこども服とか、「これだけは家に残しておきたい！！」っていうのがあるじゃないですか？でも家に置いとくのも困るし。。。あと、一番助かったのは夏のプールとか、子供用のアスレチック！捨てられないし、置くとこないしで困ってたのでこれは助かったなって思いました。急に「プール入りたいっ！」て言われた時はすぐ取りに行けるし。自分の都合で物を預かってくれるところって、なかなかないですよね。</p></div>
         </div>
     </div>
-
     <div class="voice__area backGroundColor--blue">
         <h2 class="voice__title">三宅さんご夫婦</h2>
         <div class="flex__evenry">
@@ -94,8 +125,7 @@
             <div class="voice__text__area"><p class="voice__text">うちは家が近いのでよく利用しています。趣味のバイクや模型、スポーツ用品など保管するのに最適です。バイクを家で保管すると日光や雨風で保存状態が悪くなったり、安全性がちょっと不安です。盗難される心配もないし、妻に色々言われなくて済むのでありがたいです(笑)</p></div>
         </div>
     </div>
-
-</section>
+</section> -->
 
 <!-- キャンペーン用テーブルここから -->
 <section>
