@@ -1,14 +1,20 @@
+<?php
+define("title" ,"OK!ストレージ利用者に聞きました。OKストレージの、ここが良い!!");
+define("description" ,"OKストレージを利用しようか迷っていますね？こちらでは実際にOKストレージを利用した、利用者の声を集めてみました。是非、参考に確認してみてください。");
+define("keywords", "収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ");
+?>
 <!-- headerは外部ファイル -->
-    <?php include("header.php"); ?>
+<?php include("header.php"); ?>
 <!-- headerは外部ファイル -->
 <section>
 <ul class="slider">
-    <li><a href="https://ykdeok.com/okstrage/users.php"><img class="slider__img__01"></a></li>
-    <li><a href="#"><img class="slider__img__00"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/users"><img class="slider__img__01"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/detail"><img class="slider__img__02"></a></li>
+    <li><a href="https://ykdeok.com/okstrage/"><img class="slider__img__00"></a></li>
 </ul>
 </section>
 <!-- サイドに追尾するバナーを設置する ここから-->
-    <?php include("closeBanner.php"); ?>
+<?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
 <section class="can">
     <h2 class="campaign">OK!ストレージのここがいい！！</h2>

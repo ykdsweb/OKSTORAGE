@@ -4,22 +4,18 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>倉敷で収納できるトランクルーム・レンタル倉庫をお探しならOK!ストレージ</title>
-    <meta name="description" content="OK!ストレージなら、24時間出し入れOK！防犯対策OK!月々1万円からお申込み可能で、今なら「半年・半額キャンペーン」中！季節物の衣装、バイク、レジャー用品、工具類、などなど収納できるものは多岐に渡るので、まずは一度お問い合わせください。"/>
-	<meta name="keywords" content="収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ" />
-	<!-- BootstrapのCSS読み込み -->
+    <title><?php echo title; ?></title>
+    <meta name="description" content="<?php echo description; ?>" />
+	<meta name="keywords" content="<?php echo keywords; ?>" />
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
     <script src="./bootstrap/js/bootstrap.min.js"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/style.css?<?php echo date('Ymd-Hi'); ?>" rel="stylesheet">
     <link href="./css/table.css" rel="stylesheet">
     <link href="./css/slick-theme.css" rel="stylesheet" type="text/css">
     <link href="./css/slick.css" rel="stylesheet" type="text/css">
-    <!-- js -->
     <script type="text/javascript" src="./js/closeBanner.js"></script>
     <script type="text/javascript" src="./js/slick.js"></script>
     <script type="text/javascript" src="./js/slick.min.js"></script>
@@ -66,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <a href="" class="h_logo">倉敷で収納レンタルボックスをお探しなら、OK!ストレージ</a>
+                    <a href="/" class="h_logo">倉敷で収納レンタルボックスをお探しなら、OK!ストレージ</a>
                     <div class="h_bottom_pc">
                         <a href="https://storage.cdpalma.jp/?ck=90c8d7ce60a7c32979c656617aec9c06" onclick="ga('send','event','click','click-contact');" class="h_contact">WEBからのお申し込み</a>
                         <a href="tel:0120-75-6677" onclick="ga('send','event','click','tel-tap');" class="h_tel">

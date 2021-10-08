@@ -1,0 +1,17 @@
+# ファイル一覧機能を無効にする命令
+Options -Indexes
+
+# Files ディレクティブ
+<Files phpinfo.php>
+  Deny from all
+</Files>
+
+# 拡張子なしでのアクセス
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html 
+ 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
