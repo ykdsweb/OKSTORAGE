@@ -629,14 +629,15 @@ ul.f_soudan img.img-responsive:hover {
 	  }
   }
   .closeBanner .pc {
-	width: 300px; /* バナーの横幅を指定 */
+	border-radius: 8px;
+	width: 300px;
   }
   .closeBanner:hover {
-	opacity: .9; /* ホバーで少し透過 */
+	opacity: 0.9;
   }
   
   .closeBanner.sp {
-	display: none; /* PCではスマホ用のバナーは非表示に */
+	display: none;
   }
   
   .closeBanner a{
