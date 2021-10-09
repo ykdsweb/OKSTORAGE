@@ -17,7 +17,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 <?php include("closeBanner.php"); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
 <section>
-    <h2 class="campaign">キャンペーン開催中！！</h2>
+    <h2 class="campaign">キャンペーン開催中！！(<span id="DateTimeYMD"></span>更新)</h2>
     <table class="tbl_r04">
     <tr class="thead center">
         <th>外観</th>

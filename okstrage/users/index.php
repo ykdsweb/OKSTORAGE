@@ -4,7 +4,7 @@ define("description" ,"OKストレージを利用しようか迷っています�
 define("keywords", "収納,倉庫,トランクルーム,コンテナボックス,貸し倉庫,レンタルコンテナ,ストレージ");
 ?>
 <!-- headerは外部ファイル -->
-<?php include("/common/header.php"); ?>
+<?php include(dirname(__FILE__) . '/../common/header.php'); ?>
 <!-- headerは外部ファイル -->
 <section>
 <ul class="slider">
@@ -14,7 +14,7 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
 </ul>
 </section>
 <!-- サイドに追尾するバナーを設置する ここから-->
-<?php include("/closeBanner.php"); ?>
+<?php include(dirname(__FILE__) . '/../common/closeBanner.php'); ?>
 <!-- サイドに追尾するバナーを設置する ここまで -->
 <section class="can">
     <h2 class="campaign">OK!ストレージのここがいい！！</h2>
@@ -239,5 +239,5 @@ define("keywords", "収納,倉庫,トランクルーム,コンテナボックス
     </div>
 </section>
 <!-- footerは外部ファイル -->
-<?php include("/footer.php"); ?>
+<?php include(dirname(__FILE__) . '/../common/footer.php'); ?>
 <!-- footerは外部ファイル -->
